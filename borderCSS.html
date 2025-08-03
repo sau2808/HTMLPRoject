@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Property</title>
+    <style>
+        * {
+            text-align: center;
+            margin: 0 auto;
+        }
+        h1 {
+            color: blueviolet;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .circle {
+            border-radius: 50%;
+        }
+        ._400 {
+            height: 400px;
+            width: 400px;
+        }
+        .gradient {
+            background-image: radial-gradient(closest-side, violet, brown, pink);
+            background-size: 40px 10px;
+        }
+        .bgaqua {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Background Property</h1>
+    <div class="circle _400 gradient"></div>
+    <div class="circle _400 bgaqua"></div>
+
+</body>
+</html>
